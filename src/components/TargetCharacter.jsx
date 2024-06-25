@@ -17,6 +17,27 @@ const TargetCharater = (props) => {
       </div>
 
     </div>
+
+    
+    <div>
+    <label className="input input-bordered flex items-center gap-2">
+  <input  type="text" className="grow" placeholder="name"  />
+</label>
+<label className="input input-bordered flex items-center gap-2">
+   
+  <input  type="text" className="grow" placeholder="gender" />
+</label>
+<label className="input input-bordered flex items-center gap-2">
+  <input value={character.image} type="text" className="grow" placeholder="image" />
+ 
+</label>
+{/* <label className="input input-bordered flex items-center gap-2"> */}
+ 
+  <button><span className="badge badge-info">Edit</span></button>
+{/* </label> */}
+
+
+    </div>
     
     </div>
   );

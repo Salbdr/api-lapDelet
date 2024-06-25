@@ -24,7 +24,7 @@ const App = () => {
 
   return (
    <>
-   <div className="join mt-4">
+   <div className="join mt-4 justify-center">
   <div>
     <div>
       <input className="input input-bordered join-item" placeholder="Search" />
